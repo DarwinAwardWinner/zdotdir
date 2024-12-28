@@ -6,7 +6,10 @@
 # Completions
 mattmc3/ez-compinit
 zsh-users/zsh-completions kind:fpath path:src
-aloxaf/fzf-tab  # Remove if you don't use fzf
+# aloxaf/fzf-tab  # Remove if you don't use fzf
+le0me55i/zsh-systemd
+vitkabele/complete-mac
+bilelmoussaoui/flatpak-zsh-completion
 
 # Completion styles
 belak/zsh-utils path:completion/functions kind:autoload post:compstyle_zshzoo_setup
@@ -16,6 +19,7 @@ belak/zsh-utils path:editor
 
 # History
 belak/zsh-utils path:history
+joknarf/redo
 
 # Prompt
 romkatv/powerlevel10k
@@ -30,3 +34,14 @@ ohmyzsh/ohmyzsh path:plugins/extract
 zdharma-continuum/fast-syntax-highlighting  # Syntax highlighting
 zsh-users/zsh-autosuggestions               # Auto-suggestions
 zsh-users/zsh-history-substring-search      # Up/Down to search history
+
+# Other
+djui/alias-tips
+Tarrasch/zsh-bd
+zpm-zsh/colors
+zpm-zsh/colorize
+unixorn/prettyping
+mattmc3/zsh-safe-rm
+oz/safe-paste
+hcgraf/zsh-sudo
+QuarticCat/zsh-smartcache
